@@ -6,16 +6,16 @@ import { UsuarioModule } from './components/usuario/usuario.module';
 const routes: Routes = [
   {
     path: 'home',
-    loadChildren: () => import('./home/home.module').then(m => m.HomeModule) 
+    loadChildren: () => import('./components/home/home.module').then(m => m.HomeModule)
   },
-  
   {
     path: 'usuario',
-    loadChildren: './usuario/Usuario.Module#UsuarioModule' 
+    loadChildren: () => import('./components/usuario/usuario.module').then(m => m.UsuarioModule)
   },
-
-  
-
+  {path:'',
+  pathMatch:'full',
+  redirectTo:'/home'
+  }
 ];
 
 @NgModule({
