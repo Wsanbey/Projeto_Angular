@@ -1,5 +1,20 @@
 <<<<<<< HEAD
 # CursoAngular
+Concluidos:
+1. **Introdução** ✅
+2. **Instalações necessárias** ✅
+3. **Rodar o projeto Angular** ✅
+4. **Criar componentes** ✅
+5. **Mais Componentes** ✅
+6. **Rotas** ✅
+7. **Menu** ✅
+8. **Carregamento de scripts** ✅
+9. **Service** ✅
+10. **Lista simples** ❌
+11. **Formulário simples** ❌
+12. **Integração com a API do IBGE** ❌
+13. **PrimeNG** ❌
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
 
